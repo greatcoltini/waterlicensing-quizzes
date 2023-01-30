@@ -8,18 +8,6 @@ const questionsArr = [
     ["What happens when two or more different elements combine?", "chemical compound is formed", "atom is created", "molecule is formed", "concentration is created"]
 ]
 
-const questionArr = ["Which champion is primarily a top laner?", "Which champion is primarily a jungler?",
-                    "Which champion is primarily a mid laner?", "Which champion is primarily a bot laner?",
-                    "Which champion is primarily a support?"];
-
-const roles = {
-    "top": ["Tryndamere", "Akali", "Aatrox", "Cho'Gath", "Darius", "Fiora", "Gangplank", "Garen", "Illaoi", "Kled"],
-    "jungle": ["Kayn", "Nunu and Willump", "Elise", "Amumu", "Evelynn", "Gragas", "Graves", "Karthus", "Kindred", "Nidalee"],
-    "mid": ["Ryze", "Zed", "Azir", "Galio", "Cassiopeia", "Katarina", "Kassadin", "Qiyana", "Orianna", "Syndra"],
-    "bot": ["Jhin", "Draven", "Miss Fortune", "Ezreal", "Samira", "Sivir", "Ashe", "Kaisa", "Vayne", "Kog'Maw"],
-    "support": ["Sona", "Blitzcrank", "Thresh", "Pyke", "Zilean", "Yuumi", "Nami", "Janna", "Braum", "Leona"]
-};
-
 // Create function to generate a template for a MC button selection
 
 const targetNode = document.getElementById('mc_container');
