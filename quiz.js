@@ -20,8 +20,6 @@ const roles = {
     "support": ["Sona", "Blitzcrank", "Thresh", "Pyke", "Zilean", "Yuumi", "Nami", "Janna", "Braum", "Leona"]
 };
 
-const regex_array = ["top", "jungle", "mid", "bot", "support"];
-
 // Create function to generate a template for a MC button selection
 
 const targetNode = document.getElementById('mc_container');
@@ -30,20 +28,16 @@ var score = 0;
 var total;
 
 function generate_mc() {
-    total = roles.top.length;
-    for (const [key, value] of Object.entries(roles)){
-        shuffle(value);
-    }
+    total = questionsArr.length;
     for (let i = 0; i < total; i++){
          multipleChoiceTemplate(i);
-    };
-};
+    }
+}
 
 // generate multiple choice section
 function multipleChoiceTemplate(counter) {
 
     let container_buttons = [];
-    let question_pick = getRndInteger(0, 4);
 
     let q_con = document.createElement("container");
     let q_sec = document.createElement("section");
@@ -52,7 +46,7 @@ function multipleChoiceTemplate(counter) {
     q_header.innerHTML = "QUESTION " + (counter + 1);
     q_header.classList.add('text-center');
     let q_h3 = document.createElement("h3");
-    q_h3.innerHTML = questionArr[question_pick];
+    q_h3.innerHTML = questionsArr[counter][0];
     q_h3.classList.add("q" + counter);
     let q_h4 = document.createElement("h4");
 
@@ -66,16 +60,26 @@ function multipleChoiceTemplate(counter) {
     q_sec.append(q_h3);
     q_sec.append(q_h4);
 
-    Object.keys(roles).forEach((tName) =>
+    // insert questions into the container
+    for (let i = 0; i < questionsArr.length - 2; i++)
     {
         let opt = document.createElement("button");
         opt.classList.add("button");
         opt.classList.add("btngrp" + counter);
-        opt.innerHTML = roles[tName][counter];
-        opt.setAttribute('name', roles[tName][counter]);
-        opt.onclick = function() {buttonLogic(opt, counter)};
+        opt.innerHTML = questionsArr[counter][i + 1];
+        opt.setAttribute('name', questionsArr[counter][i + 1]);
+
+        //  add conditional for success
+        if (i == 0)
+        {
+            opt.onclick = function() {buttonLogic(opt, counter, true)}
+        }
+        else {
+            opt.onclick = function() {buttonLogic(opt, counter, false)};
+        }
+  
         container_buttons.push(opt);
-    })
+    }
 
     shuffle(container_buttons);
 
@@ -110,33 +114,27 @@ function shuffle(array) {
   return array;
 }
 
-// Logic for MC buttons
-function buttonLogic(target, id) {
+// Logic for MC buttons generic
+function buttonLogic(target, id, success) {
 
-    var qTitle = document.getElementsByClassName("q" + id);
     var buttons = document.getElementsByClassName("btngrp" + id);
 
     target.style.background = "red";
 
-    for (const regex of regex_array) {
-        const reg = new RegExp(regex);
-        if (reg.test(qTitle[0].innerHTML) == true) {
-            if (roles[regex].includes(target.innerHTML)){
-                target.disabled = true;
-                target.style.background = "green";
-                score = score + 1;
-            }
-        }
-    };
-
+    if (success)
+    {
+        target.style.background = "green";
+        score = score + 1;
+    }
 
     for (let i = 0; i <= buttons.length; i++){
         buttons[i].disabled = true;
         results();
     }
 
-
 };
+
+
 
 // results function .. appears on all disabled
 function results() {
