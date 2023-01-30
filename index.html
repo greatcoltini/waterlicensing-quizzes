@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="quiz_style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Water Licensing Quizzing</title>
+
+    </head>
+
+    <body>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md me-auto sticky-top navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"> <strong>WATER TREATMENT LICENSING</strong> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item text-center">
+                        <a href="#" class="btn btn-outline-primary"> HOME</a>
+                    </li>
+                  <li class="nav-item text-center">
+                     <a href="#WORK" class="btn btn-outline-primary"> QUIZZES</a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a href="contact.html" class="btn btn-outline-primary">CONTACT</a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+          </nav>
+
+          <!-- quiz generation -->
+          <div class="container-fluid">
+               <!-- QUESTIONNAIRE CONTAINER -->
+            <div class="mc_container container-fluid" id="mc_container">
+
+            </div>
+
+            <div class="container-fluid">
+                <div id="answer_cont" class="container" hidden>
+                    <div class="section">
+                        <h2> RESULTS </h2>
+                        <hr>
+                        <button id="refresh" onclick="refreshButtons()" hidden> Refresh </button>
+                        <h4 id="answers" hidden></h4>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+          <!-- footer -->
+          <div class="container-fluid">
+            <footer class="py-2 my-2 border-top" >
+              <div class="flex-md-row">
+                <div class="socials">
+                    <a class="socials_links" href="https://github.com/greatcoltini" target="_blank">
+                        <img class="image socialimg" src="assets/githubicohov.png" alt="GitHub">
+                    </a>
+                    <a class="socials_links" href="https://instagram.com/greatcoltini" target="_blank">
+                        <img class="image socialimg" src="assets/greyinstaico.png" alt="Instagram">
+                    </a>
+                    <a class="socials_links" href="https://www.linkedin.com/in/colton-donkersgoed/" target="_blank">
+                        <img class="image socialimg" src="assets/greylinkedinico.png" alt="Indeed">
+                    </a>
+                    <a class="socials_links" href="https://www.facebook.com/colton.donkersgoed" target="_blank">
+                        <img class="image socialimg" src="assets/greyfbico.png" alt="Facebook">
+                    </a>
+                </div>
+              </div>
+              <div class="row my-0 position-relative">
+                <p class="text-center text-muted">© 2022 COLTON DONKERSGOED</p>
+              </div>
+            </footer>
+          </div>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  
+
+    </body>
+
+<script src="quiz.js"></script>
+
+</html>
