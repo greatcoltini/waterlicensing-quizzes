@@ -9,7 +9,7 @@ var questionCounter = 0;
 var total;
 var buttonContainersContainers = [];
 
-function generate_mc(questions_type) {
+function generate_mc(questions_type, question_num) {
 
     total = questions_type.length;
 
@@ -17,7 +17,7 @@ function generate_mc(questions_type) {
          multipleChoiceTemplate(i, questions_type);
     }
 
-    add_to_main();
+    add_to_main(question_num);
 }
 
 // add event listener; for reading files in
@@ -111,13 +111,13 @@ function multipleChoiceTemplate(counter, questions_type) {
 }
 
 // add to main container
-function add_to_main()
+function add_to_main(question_num)
 {
     // shuffle the button containers
     shuffle(buttonContainersContainers);
 
     // do once for each button container
-    for (let i = 0; i < buttonContainersContainers.length; i++)
+    for (let i = 0; i < question_num; i++)
     {
         // make container for this buttons section
         let question_container = document.createElement("container");
@@ -230,11 +230,19 @@ function clean_window(){
 // refreshes the mc .
 function refreshButtons(){
     clean_window();
-    generate_mc(questions_OIT);
+    generate_mc(questions_OIT, 10);
+}
+
+// generate quiz at specific quantity
+function generate_quiz(element){
+    element.disabled = true;
+    var question_quantity = element.innerHTML;
+    clean_window();
+    generate_mc(questions_OIT, question_quantity);
 }
 
 
 window.addEventListener('load', (event) => {
     add_read_event(document.getElementById("file-selector"));
-  generate_mc(questions_OIT);
+  generate_mc(questions_OIT, 10);
 });
