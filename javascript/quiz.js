@@ -54,7 +54,6 @@ function multipleChoiceTemplate(counter, questions_type) {
 
     let container_buttons = [];
 
-    // let q_con = document.createElement("container");
     let q_sec = document.createElement("section");
     let q_header = document.createElement("h2");
     let q_hr = document.createElement('hr');
@@ -234,8 +233,14 @@ function refreshButtons(){
     generate_mc(questions_OIT, question_quantity);
 }
 
-// generate quiz at specific quantity
+// generate quiz at specific quantity; adjusting buttons accordingly
 function generate_quiz(element){
+    document.getElementById("10").disabled = false;
+    document.getElementById("20").disabled = false;
+    document.getElementById("40").disabled = false;
+    document.getElementById("10").style.opacity = 1;
+    document.getElementById("20").style.opacity = 1;
+    document.getElementById("40").style.opacity = 1;
     element.disabled = true;
     element.style.opacity = 0.5;
     question_quantity = element.innerHTML;
@@ -243,7 +248,7 @@ function generate_quiz(element){
     generate_mc(questions_OIT, question_quantity);
 }
 
-
+// on load
 window.addEventListener('load', (event) => {
     add_read_event(document.getElementById("file-selector"));
   generate_mc(questions_OIT, question_quantity);
