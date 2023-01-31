@@ -1,5 +1,5 @@
 // Initialization of global variables
-const questions_OIT = [
+const questions_OIT_uf = [
     ["What units are used to measure water pressure?", "Kilopascals", "Kilowatts", "Horsepower", "Head units"],
     ["Which of the following is NOT an example of PPE (Personal Protective Equipment)?"," Exhaust fan", "SCBA", "Face shield", "Traffic vest"],
     ["Which of the following are operators-in-training NOT allowed to do?", "Be the operator with overall operational responsibility of the system", "There are no restrictions on the duties of an operator-in-training", "Any operational duties if not in the presence of another operator", "Anything which could effect the quality of the water/wastewater"],

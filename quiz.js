@@ -1,5 +1,5 @@
 // Create function to generate a template for a MC button selection
-const targetNode = document.getElementById('mc_container');
+const TARGET_NODE = document.getElementById('mc_container');
 
 // const outlining number of buttons to present
 const QUESTION_OPTIONS = 4;
@@ -64,9 +64,6 @@ function multipleChoiceTemplate(counter, questions_type) {
     q_h3.classList.add("q" + counter);
     let q_h4 = document.createElement("h4");
 
-    // targetNode.append(q_con);
-    // q_con.append(q_sec);
-    // q_con.classList.add("container");
     q_sec.append(q_header);
     q_sec.classList.add("section");
     q_header.classList.add("h2");
@@ -81,6 +78,12 @@ function multipleChoiceTemplate(counter, questions_type) {
         opt.classList.add("button");
         opt.classList.add("btngrp" + counter);
         opt.innerHTML = questions_type[counter][i + 1];
+        
+        if (questions_type[counter][i + 1] == "undefined")
+        {
+            opt.style.display = 'none';
+        }
+
         opt.setAttribute('name', questions_type[counter][i + 1]);
 
         //  add conditional for success
@@ -118,7 +121,7 @@ function add_to_main()
     {
         // make container for this buttons section
         let question_container = document.createElement("container");
-        targetNode.append(question_container);
+        TARGET_NODE.append(question_container);
         question_container.classList.add("container");
         question_container.append(buttonContainersContainers[i]);
     }

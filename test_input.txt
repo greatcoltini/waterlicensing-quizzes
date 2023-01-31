@@ -1,0 +1,333 @@
+Which of the following statements is the most accurate concerning a "Certificate of Approval" (C of A), issued by the Ministry of Environment?
+a) The terms and conditions stated in a C of A are legally enforceable
+b) The terms and conditions stated in a C of A are recommendations on how the facilities should be operated
+c) A C of A is only required for facilities built before 1965
+d) Once a facility has been built the C of A is no longer required and can be discarded
+
+Coagulation is the mixing of coagulants with water to:
+a) disperse colloidal material
+b) form floc
+c) inactivate colloids
+d) suspend floc
+
+What units are used to measure water pressure?
+
+a) Kilowatts
+b) Kilopascals
+c) Horsepower
+d) Head units
+
+Which of the following is NOT an example of PPE (Personal Protective Equipment)?
+
+a) Exhaust fan
+b) SCBA
+c) Face shield
+d) Traffic vest
+
+Which of the following are operators-in-training NOT allowed to do?
+
+a) There are no restrictions on the duties of an operator-in-training
+b) Any operational duties if not in the presence of another operator
+c) Anything which could effect the quality of the water/wastewater
+d) Be the operator with overall operational responsibility of the system
+
+Define the term "head" as used in hydraulic systems.
+
+a) The block of an internal combustions engine
+b) The ability of a piston pump to overcome the force of gravity
+c) The height or energy of water above a specified point
+d) The distance between the liquid level and the cover of a well
+
+Which of the following statements accurately describes some of the properties of chlorine?
+
+a) Is a colourless gas which is toxic to plants and animals; is flammable and explosive
+b) Is a greenish/yellow gas with a penetrating odour; is heavier than air
+c) Is a yellowish gas with an irritating odour; insoluble in water
+d) Is lighter than air; soluble in water and forms a salt which is lethal to microorganisms
+
+What happens when two or more different elements combine?
+
+a) chemical compound is formed
+b) atom is created
+c) molecule is formed
+d) concentration is created
+
+What is the definition of a confined space?
+
+a) Any space which is not actively ventilated by an electrical ventilation system
+b) Any space from which exit by an injured worker is difficult
+c) Any space where hazardous gas can accumulate or an oxygen deficient atmosphere can occur
+d) Any space where the distance from floor to ceiling is less than 3 metres
+
+The flow of electrical current is measured in
+
+a) Amperes
+b) Ohms
+c) Volts
+d) Watts
+
+What is meant by the term 'organic compounds'? Chemical compounds that are:
+
+a) not made from carbon
+b) contain carbon, hydrogen and oxygen
+c) can easily oxidize
+d) can dissolve in water
+
+The volume of chlorine increases ______ times when it is depressurized into gas
+
+a) 100
+b) 200
+c) 350
+d) 450
+
+What causes hardness in water?
+
+a) high pH
+b) low turbidity
+c) dissolved mineral salts
+d) alkalinity
+
+O. Reg. 129/04 addresses the licensing of:
+
+a) drinking water operators
+b) water quality analysts
+c) medical officers of health
+d) sewage works operators
+
+Which of the following is NOT an isolation valve?
+
+a) ball
+b) check
+c) butterfly
+d) globe
+
+An operator smells hydrogen sulphide at the entrance of a deep confined space. that actions should the operator take?
+
+a) hydrogen sulphide is only detected in low concentrations and will only cause headaches at this concentration. Proceed if the task is short
+b) Vent the confined space while working
+c) Hydrogen sulphide gas in all concentrations is only an irritant, so proceed with the task
+d) Do not enter the confined space until there is no hydrogen sulphide detected, and then only when all safety equipment is in place
+
+What is the main purpose of the Safe Drinking Water Act?
+
+a) Certify operators
+b) Protect human health
+c) Supervise drinking water systems
+d) Sample and test drinking water
+
+What does a sample with a high BOD level indicate?
+
+a) Low organic material content
+b) High organic material content
+c) High level of inorganic suspended solids
+d) Low level of pathogenic bacteria
+
+Which of the following statements is the most accurate concerning a "Certificate of Approval" (C of A), issued by the Ministry of Environment?
+
+a) The terms and conditions stated in a C of A are legally enforceable
+b) The terms and conditions stated in a C of A are recommendations on how the facilities should be operated
+c) A C of A is only required for facilities built before 1965
+d) Once a facility has been built the C of A is no longer required and can be discarded
+
+Coagulation is the mixing of coagulants with water to:
+
+a) disperse colloidal material
+b) form floc
+c) inactivate colloids
+d) suspend floc
+
+Trihalomethanes are produced when chlorine reacts with:
+
+a) inorganic materials
+b) chlorine dioxide
+c) organic materials
+d) ultra violet light
+
+What is the chlorine residual in water?
+
+a) the amount of chlorine applied to the water daily
+b) low concentrations of chlorine gas
+c) chlorine salt which is left after water evaporates
+d) amount of chlorine that remains in water after disinfection
+
+The chlorine dosage of a town's water source is 4.0 mg/L. The chlorine demand for the water is 3.7 mg/L. What is the chlorine residual?
+
+a) 0 mg/L
+b) 0.3 mg/L
+c) 3.7 mg/L
+d) 4.3 mg/L
+
+Which of the following is the correct order of processes within a cognitional surface water treatment plant?
+
+a) screens, coagulation, flocculation, filters, chlorination
+b) screens, flocculation, coagulation, chlorination, filters
+c) chlorination, screens, filtration, coagulation, flocculation
+d) screens, filters, flocculation, coagulation, chlorination
+
+What does the term 'contact time' mean?
+
+a) it is the amount of time a person is exposed to chlorine
+b) it is the amount of time allowed for chlorine to react in water to provide disinfection
+c) it is the amount of time a coagulant is exposed to water before flocculation occurs
+d) it is the amount of time it takes for chlorine to sterilize water
+
+Backflow siphonage is caused by:
+
+a) positive pressure in the water main
+b) unprotected connections
+c) unprotected openings
+d) negative pressure in the water main
+
+When flushing a water main, operators should ensure that the pressure in nearby areas does not drop below _______.
+
+a) 60 kPa
+b) 140 kPa
+c) 350 kPa
+d) 550 kPa
+
+Which of the following best describes the largest volume of water a distribution system would normally supply during a day?
+
+a) minimum demand (L/hour)
+b) average demand (L/hour)
+c) peak demand (L/hour)
+d) average demand per person (L/hour/person)
+
+Distribution lines are flushed periodically to:
+
+a) increase water pressure in the system
+b) reduce the risk of water hammer
+c) ensure that chlorine does not accumulate in pipes
+d) remove deposits from the pipeline
+
+What is NOT one of the main purposes of distribution storage?
+
+a) to help satisfy peak demand
+b) to allow for a uniform water treatment and pumping rate
+c) to provide water for firefighting needs
+d) to store a large volume of water for long periods of time
+
+What is the name of the valve which connects the customer's service line to the municipal water line?
+
+a) bypass valve
+b) control flume
+c) curb stop
+d) check valve
+
+In an activated sludge process, some of the sludge collected in the secondary sedimentation tank is returned to the _______ to maintain the mass of the mixed liquor.
+
+a) grit channel
+b) aeration tank
+c) primary sedimentation tank
+d) digester
+
+Why does untreated sewage cause serious problems to streams and lakes?
+
+a) sewage will deplete the water of oxygen required by fish and other animals
+b) sewage creates unpleasant odours for water animals
+c) sewage decreases the temperature of the water
+d) sewage will decrease the amount of nutrients in the water
+
+A higher than normal BOD in the wastewater entering a conventional wastewater treatment plant will most likely have the greatest effect on which of the following processes?
+
+a) grit removal
+b) primary clarification
+c) activated sludge
+d) secondary clarification
+
+Which of the following devices is used to measure the flow of wastewater in an open channel?
+
+a) comminutor
+b) compactor
+c) parshall flume
+d) sluice gate
+
+Which of the following is a correct order of processes within a conventional activated sludge treatment facility?
+
+a) grit channel, aeration tank, primary sedimentation, secondary sedimentation
+b) primary sedimentation, grit channel, aeration tank, secondary sedimentation
+c) grit channel, primary sedimentation, aeration tank, secondary sedimentation
+d) grit channel, primary sedimentation, secondary sedimentation, aeration tank
+
+Secondary treatment typically removes ______ of the BOD and suspended solids.
+
+a) 20-39%
+b) 40-59%
+c) 60-79%
+d) 80-99%
+
+Water entering a wastewater treatment plant will pass through a bar screen. The bar screen is designed to remove which of the following items?
+
+a) dissolved solids
+b) grit and sand
+c) large objects
+d) nutrients
+
+Define the term 'supernatant'
+
+a) a solution which is supersaturated
+b) a substance used to reduce odour in polluted waters
+c) the liquid located above a sediment or precipitate
+d) an operator who is extremely proficient in fulfilling their duties
+
+A __________ is used to move wastewater from a wastewater lift station to an elevated gravity sewer:
+
+a) sewer lateral
+b) force main
+c) sanitary trunk main
+d) transmission main
+
+What happens when a sewer is surcharged?
+
+a) infiltration of ground water into sewers
+b) flushing a sewer with clean water to clean debris away
+c) hydraulically overloading a sewer
+d) taxing a customer's water bill to pay for collection devices
+
+Which of the following infectious diseases can be transmitted through domestic wastewater?
+
+a) hepatitis
+b) giardiasis
+c) cryptosporidiosis
+d) all of the above
+
+What is meant by the term "combined sewers"?
+
+a) industrial sewage and domestic sewage are collected in the same sewers
+b) stormwater and sewage are collected in the same sewers
+c) the main sewer line which takes all of a city's sewage to the treatment plant
+d) a sewer which contains both gravity sewers and force mains
+
+Why is hydrogen sulphide gas a problem in sewers?
+
+a) results in an increase in rodent populations
+b) the gas can block the flow of sewage
+c) since it is odourless, workers will not know when they are exposed
+d) leads to corrosion of certain types of sewers
+
+Why is a minimum wastewater velocity of 0.6 m (2.0 feet) per second necessary in a gravity sewer?
+
+a) it will ensure that sewage has enough velocity to go up minor increases in sewer elevation
+b) it will prevent the growth of roots in sewers
+c) it will prevent the erosion of the bottom of the sewer
+d) it will prevent the build up of solids in the sewer
+
+Which of the following is a source of excessively clear water in a collection system?
+
+a) infiltration from a high water table
+b) exfiltration from a high water table
+c) excessive recirculation
+d) inverted siphon
+
+Who is primary responsible for your safety?
+
+a) you
+b) employer
+c) MOE
+d) government
+
+When operating a pump, an operator feels a vibration and hears a slight hammering noise.
+
+a) water hammer
+b) cavitation
+c) undefined
+d) undefined

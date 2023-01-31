@@ -1,4 +1,4 @@
-[What units are used to measure water pressure?, Kilopascals, Kilowatts, Horsepower, Head units]
+const questions_OIT: = [[What units are used to measure water pressure?, Kilopascals, Kilowatts, Horsepower, Head units]
 [Which of the following is NOT an example of PPE (Personal Protective Equipment)?, Exhaust fan, SCBA, Face shield, Traffic vest]
 [Which of the following are operators-in-training NOT allowed to do?, Be the operator with overall operational responsibility of the system, There are no restrictions on the duties of an operator-in-training, Any operational duties if not in the presence of another operator, Anything which could effect the quality of the water/wastewater]
 [Define the term "head" as used in hydraulic systems., The height or energy of water above a specified point, The block of an internal combustions engine, The ability of a piston pump to overcome the force of gravity, The distance between the liquid level and the cover of a well]
@@ -22,4 +22,4 @@
 
 
 
-question, ans, opt1, opt2, op3
+question, ans, opt1, opt2, op3]
