@@ -8,6 +8,7 @@ var score = 0;
 var questionCounter = 0;
 var total;
 var buttonContainersContainers = [];
+var question_quantity = 10;
 
 function generate_mc(questions_type, question_num) {
 
@@ -201,7 +202,7 @@ function results() {
 
     if (all_disabled == true){
         document.getElementById("answer_cont").hidden = false;
-        document.getElementById("answers").innerHTML = score + "/" + questionCounter;
+        document.getElementById("answers").innerHTML = score + "/" + question_quantity;
         document.getElementById("answers").hidden = false;
         document.getElementById("refresh").hidden = false;
     }
@@ -221,7 +222,7 @@ function clean_window(){
     all_disabled = false;
     score = 0;
     document.getElementById("answer_cont").hidden = true;
-    document.getElementById("answers").innerHTML = score + "/10";
+    document.getElementById("answers").innerHTML = score + "/" + question_quantity;
     document.getElementById("answers").hidden = true;
     document.getElementById("refresh").hidden = true;
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -230,13 +231,14 @@ function clean_window(){
 // refreshes the mc .
 function refreshButtons(){
     clean_window();
-    generate_mc(questions_OIT, 10);
+    generate_mc(questions_OIT, question_quantity);
 }
 
 // generate quiz at specific quantity
 function generate_quiz(element){
     element.disabled = true;
-    var question_quantity = element.innerHTML;
+    element.style.opacity = 0.5;
+    question_quantity = element.innerHTML;
     clean_window();
     generate_mc(questions_OIT, question_quantity);
 }
@@ -244,5 +246,5 @@ function generate_quiz(element){
 
 window.addEventListener('load', (event) => {
     add_read_event(document.getElementById("file-selector"));
-  generate_mc(questions_OIT, 10);
+  generate_mc(questions_OIT, question_quantity);
 });
