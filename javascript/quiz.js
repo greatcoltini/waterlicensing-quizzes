@@ -251,5 +251,5 @@ function generate_quiz(element){
 // on load
 window.addEventListener('load', (event) => {
     add_read_event(document.getElementById("file-selector"));
-  generate_mc(questions_OIT, question_quantity);
+  generate_quiz(document.getElementById("10"));
 });
