@@ -232,17 +232,18 @@ function clean_window(){
 // refreshes the mc .
 function refreshButtons(){
     clean_window();
-    generate_mc(questions_OIT, question_quantity);
+    generate_mc(question_type[active_question_type], question_quantity);
 }
 
 // generate quiz at specific quantity; adjusting buttons accordingly
 function generate_quiz(element){
-    document.getElementById("10").disabled = false;
-    document.getElementById("20").disabled = false;
-    document.getElementById("40").disabled = false;
-    document.getElementById("10").style.opacity = 1;
-    document.getElementById("20").style.opacity = 1;
-    document.getElementById("40").style.opacity = 1;
+  
+    for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling)
+    {
+        child.disabled = false;
+        child.parentNode.style.opacity = 1;
+    }
+
     element.disabled = true;
     element.style.opacity = 0.5;
     question_quantity = element.innerHTML;
@@ -256,18 +257,12 @@ function category_function(element)
     // change active question type
     active_question_type = element.id;
 
-    // get number of questions; run quiz generation
-    if (document.getElementById("10").disabled == true)
-    {
-        generate_quiz(document.getElementById("10"));
-    }
-    else if (document.getElementById("20").disabled)
-    {
-        generate_quiz(document.getElementById("20"));
-    }
-    else
-    {
-        generate_quiz(document.getElementById("40"));
+    // generate number of questions based on selected option
+    for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
+        if (child.disabled == true)
+        {
+            generate_quiz(child);
+        }
     }
 }
 
