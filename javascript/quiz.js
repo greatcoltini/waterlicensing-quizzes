@@ -245,16 +245,21 @@ function refreshButtons(){
 
 // generate quiz at specific quantity; adjusting buttons accordingly
 function generate_quiz(element){
-  
-    for (var child in document.getElementById("quiz_quantity").children)
-    {
+
+     // generate number of questions based on selected option
+     for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
         child.disabled = false;
-        child.parentNode.style.opacity = 1;
+        // properly select button for opacity adjustment
+        if (child.nodeType == 1)
+        {
+            child.style.opacity = 1;
+        }
     }
 
     element.disabled = true;
     element.style.opacity = 0.5;
     question_quantity = element.innerHTML;
+
     clean_window();
     generate_mc(question_type[active_question_type], question_quantity);
 }
@@ -276,7 +281,7 @@ function category_function(element)
 }
 
 
-// on load ; we generate a default quiz
+// on load ; we generate a
 window.addEventListener('load', (event) => {
     add_read_event(document.getElementById("file-selector"));
   generate_quiz(document.getElementById("10"));
