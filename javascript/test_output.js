@@ -48,8 +48,6 @@ const questions_OIT = [
 ["Who is primary responsible for your safety?"," you"," employer"," MOE"," government"],
 ["When operating a pump, an operator feels a vibration and hears a slight hammering noise."," cavitation"," water hammer","undefined","undefined"],]
 
-const questions_WTI = [];
-
 const questions_WTII = [];
 
 const questions_WT12 = [
@@ -91,3 +89,5 @@ const questions_WT12 = [
     ["What is the volume of a cylinder that is 5.5 m high and has a diameter of 4.3 m?"," 80"," 24"," 74"," 102"],
     ["If 1 cm represents 0.5 m on a scaled drawing, then how many cm will represent 8.7m?"," 17.4cm"," 4.35cm"," 8.7cm"," 43.5cm"],
     ["What type of intake structure is described by the following statements: Often used in deep lakes, various configurations are available: vertical tower, inclined on the lake slope, Able to provide water from the depth where the best quality of water is located at a given time."," Multi-level intake"," Submerged intake"," Single level intake"," Well intake"],]
+
+const questions_WTI = [] + questions_WT12;

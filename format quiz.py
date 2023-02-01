@@ -5,7 +5,7 @@ output_file = open("test_output_wt12.js", 'w')
 # constants for REGEX ? 
 removed_prefix = ["a)", "b)", "c)", "d)", "A.", "B.", "C.", "D."]
 
-output_file.write("const questions_WT12: = [")
+output_file.write("const questions_WT12 = [")
 
 # counter for processing data
 counter = 0

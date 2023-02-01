@@ -249,6 +249,7 @@ function generate_quiz(element){
      // generate number of questions based on selected option
      for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
         child.disabled = false;
+
         // properly select button for opacity adjustment
         if (child.nodeType == 1)
         {
@@ -270,6 +271,23 @@ function category_function(element)
 {
     // change active question type
     active_question_type = element.id;
+
+    // disable selected question type btn
+    var nodes = document.getElementById("navbar-btns").getElementsByTagName("a");
+    for (var i = 0; i < nodes.length; i++)
+    {
+        if (nodes[i] == element)
+        {
+            nodes[i].disabled = true;
+            nodes[i].classList.add("btn-primary", "text-dark");
+            nodes[i].classList.remove("btn-primary-outline")
+        }
+        else {
+            nodes[i].disabled = false;
+            nodes[i].classList.remove("btn-primary", "text-dark");
+            nodes[i].classList.add("btn", "btn-outline-primary");
+        }
+    }
 
     // generate number of questions based on selected option
     for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
