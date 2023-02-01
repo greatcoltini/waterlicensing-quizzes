@@ -4,6 +4,7 @@ const TARGET_NODE = document.getElementById('mc_container');
 // const outlining number of buttons to present
 const QUESTION_OPTIONS = 4;
 
+// variables instantiation
 var score = 0;
 var questionCounter = 0;
 var question_type = [questions_OIT, questions_WT12, questions_WTII];
@@ -12,6 +13,8 @@ var total;
 var buttonContainersContainers = [];
 var question_quantity = 10;
 
+
+// generates the multiple choice optipons; based on the number of questions
 function generate_mc(questions_type, question_num) {
 
     total = questions_type.length;
@@ -22,6 +25,7 @@ function generate_mc(questions_type, question_num) {
 
     add_to_main(question_num);
 }
+
 
 // add event listener; for reading files in
 function add_read_event(element)
@@ -48,6 +52,7 @@ function add_read_event(element)
         reader.readAsText(file);  
     })
 }
+
 
 // generate multiple choice section
 function multipleChoiceTemplate(counter, questions_type) {
@@ -112,6 +117,7 @@ function multipleChoiceTemplate(counter, questions_type) {
     buttonContainersContainers.push(q_sec);
 }
 
+
 // add to main container
 function add_to_main(question_num)
 {
@@ -131,11 +137,11 @@ function add_to_main(question_num)
 }
 
 
-
 // Function returns a random integer between min and max inclusive
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
 
 // Function shuffles array; for randomizing question boxes
 function shuffle(array) {
@@ -156,6 +162,7 @@ function shuffle(array) {
   return array;
 }
 
+
 // Logic for MC buttons generic
 function buttonLogic(target, id, success) {
 
@@ -175,7 +182,6 @@ function buttonLogic(target, id, success) {
     }
 
 };
-
 
 
 // results function .. appears on all disabled
@@ -229,16 +235,18 @@ function clean_window(){
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
+
 // refreshes the mc .
 function refreshButtons(){
     clean_window();
     generate_mc(question_type[active_question_type], question_quantity);
 }
 
+
 // generate quiz at specific quantity; adjusting buttons accordingly
 function generate_quiz(element){
   
-    for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling)
+    for (var child in document.getElementById("quiz_quantity").children)
     {
         child.disabled = false;
         child.parentNode.style.opacity = 1;
@@ -251,6 +259,7 @@ function generate_quiz(element){
     generate_mc(question_type[active_question_type], question_quantity);
 }
 
+
 // category switch
 function category_function(element)
 {
@@ -259,14 +268,15 @@ function category_function(element)
 
     // generate number of questions based on selected option
     for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
-        if (child.disabled == true)
+        if (child.disabled)
         {
             generate_quiz(child);
         }
     }
 }
 
-// on load
+
+// on load ; we generate a default quiz
 window.addEventListener('load', (event) => {
     add_read_event(document.getElementById("file-selector"));
   generate_quiz(document.getElementById("10"));
