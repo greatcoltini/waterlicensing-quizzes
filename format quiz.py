@@ -3,7 +3,7 @@ format_file = open("test_input.txt", 'r')
 output_file = open("test_output.js", 'w')
 
 # constants for REGEX ? 
-removed_prefix = ["a)", "b)", "c)", "d)"]
+removed_prefix = ["a)", "b)", "c)", "d)", "A.", "B.", "C.", "D."]
 
 output_file.write("const questions_OIT: = [")
 
