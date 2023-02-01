@@ -156,7 +156,7 @@ const questions_WT12 = [
     ["Flexible couplings used to connect the motor and the pump shaft transmit: "," Power efficiently and effectively from one shaft to the other."," Wear on bearings to the shaft sleeve."," Shock loads and pulsations."," Load reversals."],
     ["Centrifugal pump parts include:"," volute"," diaphragm"," piston"," rotor"],]
 
-const questions_WTI = [] + questions_WT12;
+const questions_WTI = [].concat(questions_WT12);
 
 const questions_WTII = [["The advantage to using the oxidant ozone is that it "," has little pH effect."," is easily generated using relatively little energy."," is easily fed into the treatment process."," is noncorrosive."],
 ["Pretreatment with chlorine is being eliminated at many water treatment plants because it has been shown to"," sometimes produce disinfection by-products known to be carcinogenic. "," react with floc and not much with organics, pathogens, or algae; thus it is a waste of resources and money."," react with organics almost exclusively and not much with pathogens or algae; thus it is a waste of resources and money."," react by as much as 95% of its concentration with concrete walls and metal structures before oxidizing pathogens, organics, and algae."],
@@ -184,4 +184,4 @@ const questions_WTII = [["The advantage to using the oxidant ozone is that it ",
 ["How many lb/day of sodium fluorosilicate (Na2SiF2) is required given the following parameters? \n Flow rate is 1,750 gpm. *Fluoride desired is 1.20 mg/L. \n Fluoride in raw water is 0.15 mg/L. Sodium fluorosilicate is 98.1% pure. *Fluoride (F) ion percent is 60.6%."," 37 lb/day,"," 34 lb/day, "," 42 lb/day, "," 48 lb/day, "],
 ["A filter is 24 ft by 28 ft. Calculate the filtration rate in gpm, if it receives a flow of 3,250 gpm."," 4.8 gpm/ft2"," 4.4 gpm/ft2"," 5.0 gpm/ft2"," 5.1 gpm/ft2"],
 ["Pressure measured in terms of the height of water (in meters or feet) is referred to as"," head."," gauge pressure."," barometric pressure."," absolute pressure."],
-["In the equation to convert milligrams-per-liter concentration to pounds per day, (dosage) (flow rate) (conversion factor)"," feed rate."," feed demand."," feed capacity."," total feed"],] + questions_WT12;
+["In the equation to convert milligrams-per-liter concentration to pounds per day, (dosage) (flow rate) (conversion factor)"," feed rate."," feed demand."," feed capacity."," total feed"]].concat(questions_WT12);
