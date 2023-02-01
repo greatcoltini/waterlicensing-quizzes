@@ -3,7 +3,7 @@ format_file = open("test_input_wt12.txt", 'r')
 output_file = open("test_output_wt12.js", 'w')
 
 # constants for REGEX ? 
-removed_prefix = ["a)", "b)", "c)", "d)", "A.", "B.", "C.", "D."]
+removed_prefix = ["a)", "b)", "c)", "d)", "A.", "B.", "C.", "D.", "a.", "b.", "c.", "d."]
 
 output_file.write("const questions_WT12 = [")
 

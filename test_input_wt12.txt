@@ -225,3 +225,567 @@ A. Submerged intake
 B. Single level intake
 C. Multi-level intake
 D. Well intake
+
+What is the detention time in a storage tank 6.0 m high and 9.1 m in diameter when the rate of flow is 1,900m3/d?
+A. 5.0 hrs
+B. 5.2 hrs
+C. 7.9 hrs
+D. 10 hrs
+
+A sand filter is 6.1 m by 5.5 m. The backwash rate is 23m3/min. What is the backwash rise rate in m per minute?
+A. 0.69 m/min
+B. 0.72 m/min
+C. 6.9 m/min
+D. 7.2 m/min
+
+A circular clarifier 20 m in diameter has a weir along the entire circumference. What is the weir overflow rate in m3/m.d when the flow is 7.6m3/min?
+C. 174
+A. 38
+B. 152
+D. 210
+
+A circular clarifier treats a flow of 4,542m3/d. The diameter is 16.8 m; the depth is 2.4 m. What is the surface loading in m3/m2.d?
+B. 20.5
+A. 5.1
+C. 87.2
+D. 113
+
+One of the most common causes of mud balls in the filter media is:
+A. Insufficient backwash rate.
+B. Excessive filtration rate.
+C. Excessive backwash rate. 
+D. Broken underdrain system.
+
+Persistent formation of mud balls in a filter can be overcome: 
+C. By thorough back washing and optimizing the chemical dose
+A. By increasing the dose of the coagulant or coagulant aid. 
+B. By changing the filter media.
+D. With filter aids.
+
+Algae can shorten filter runs by:
+A. Clogging the filters.
+B. Increasing chlorine demand.
+C. Lowering the ph.
+D. Increasing the turbidity.
+
+Filters in a water treatment process are primarily for removing or reducing:
+D. Turbidity
+A. Calcium and magnesium sulfates
+B. Color
+C. Tastes and odors
+
+In a filter using gravel, anthracite, and sand, the anthracite should be:
+A. The top layer of media.
+B. Beneath the gravel.
+C. Between the sand and the gravel.
+D. Mixed with the sand.
+
+A Water Treatment Plant's flocculation-coagulation and sedimentation processes should be checked if which of the following changes?
+A. Turbidity
+B. Chlorine feed rate
+C. Fluoride feed rate
+D. Trihalomethanes
+
+If raw water turbidity changed from 10 to 300 turbidity units and the finished water turbidity had increased from 0.1 to 1.0 turbidity units, the unit process having the most impact to correct this situation is:
+A Coagulation
+B. Sedimentation
+C. Filtration
+D. Disinfection
+
+Chemicals that cause alkalinity in water are: 
+A. Calcium carbonate and calcium oxide
+B. Calcium sulfate and sodium sulfate 
+C. Magnesium chloride and iron chloride 
+D. Sodium chloride and calcium chloride
+
+What can generally be said about colloidal particles in water? 
+B. They do not settle readily.
+A. They will dissolve.
+C. They will settle after one hour. 
+D. They will settle immediately.
+
+Non-settleable solids are classified as ______ solids: 
+B. Colloidal, dissolved, and total dissolved 
+A. Suspended, colloidal, and dissolved 
+C. Colloidal, bacterial, and suspended
+D. Coarse, fine, and very fine solids.
+
+A well screen must be installed in:
+D. Unconsolidated materials
+A. All deep wells
+B. Consolidated materials
+C. Only shallow wells
+
+Which of the following type of screen is used to screen out large debris such as logs and fish?
+A. Bar screen
+B. Wire-mesh screen
+C. Micro strainer
+D. Travelling screen
+
+What effect will the addition of lime, caustic soda, or soda ash have on the pH of water?
+C. Increase
+A. Stabilize
+B. Lower
+D. Have no effect
+
+A calm area within a settling basin necessary for suspended materials to settle is known as the
+C. Settling 
+A. Inlet
+B. Outlet
+D. Sludge
+
+Sedimentation is improved by:
+D. Uniform, horizontal, low velocity flow across the basin.
+A. A sludge blanket
+B. Reducing the detention period in the basin.
+C. Increasing the flow rate.
+
+Sedimentation is a process that ____ suspended matter
+A. Settles
+B. Coagulates
+C. Flocculates
+D. Filters
+
+Clarification of water by sedimentation and filtration removes:
+B. Suspended solids
+A. Dissolved solids
+C. Volatile solids
+D. All of the above
+
+How many kg of sodium hypochlorite containing 8% available chlorine by weight would be needed to provide 25 kg of chlorine?
+D. 312.5
+A. 50.0
+B. 78.1 
+C. 200.0
+
+An operator disinfects 100,000 L of water in storage with a dose of 50 mg/L of chlorine. The operator has 60 kg of a chemical, which is 65 percent available chlorine by weight, and the operator dumps it all in. This was:
+B. Too much.
+A. The right amount.
+C. Not enough.
+D. None of the above
+
+Chlorine gas use at a water treatment plant averages 36.7 kg/d. assuming that the average daily flow is 49,210m3/d, the dose is
+B. 0.75
+A. 0.5
+C. 1.0
+D. 715
+
+The chlorine demand of water is 3 mg/L. If the operator treats 946 m3 with 4.5 kg of chlorine gas, the chlorine residual should be_
+B. 1.8
+A. 1.0
+C. 3.0
+D. 4.8
+
+The most important use of chlorine in water treatment is as a(n):
+C. Disinfectant.
+A. Coagulant aid.
+B. Algaecide.
+D. Oxidant for iron and manganese.
+
+After a new water main is installed and pressure tested it should be
+B. Filled with a solution of 50 mg/l free chlorine for at least 24 hours prior to flushing.
+A. Flushed with clean water for 24 hours and put into service.
+C. Filled with clean water and allowed to sit for 5 days at full pressure before turning the water into the system.
+D. Photographed so that mapping can be avoided until the system is complete.
+
+What is the purpose of a check valve?
+A. To regulate the rate of flow through the discharge pipe.
+B. To act as automatic shutoff valve when the pump stops.
+C. To permit air to escape from the pipe.
+D. To prevent clogging of the suction line.
+
+A cylindrical tank with a radius of 2.5 m is filled to a depth of 4.0 m with water. Approximately how many litres of water does it contain?
+D. 78,000 L
+A. 78 L
+B. 10,000 L
+C. 62,000 L
+
+To protect stored water from contamination, a ground storage reservoir should 
+B. Have both the overflow pipe and the vent screened.
+A. Be totally airtight.
+C. Have cathodic protection.
+D. Have its interior surface coated with an awwa-approved paint system.
+
+The main sources of water treatment plant waste residues are:
+B. Filter backwash and settling tank sludge.
+A. Flocculated solids and chlorine residuals.
+C. Filter media and the clear well drain.
+D. Settled water and chemical feed systems.
+
+List the three components of treated water storage. 
+C. Fire protection, equalization, emergency
+A. Emergency, chlorine contact, fire protection 
+B. Backwash water, fire protection, chlorine contact 
+D. Chlorine contact, equalization, clear well
+
+What type of level sensor uses sound waves?
+B. ultrasonic sensor
+A. bubbler tube
+C. float mechanism
+D. differential pressure
+
+If the charge rate is $0.60/m3 and water consumption was 80,536 L, what is the cost of the water bill?
+C. $48.32 
+A. $20.78
+B. $24.32
+D. $480.32
+
+The filter medium in DE filters is:
+B. Diatomaceous earth.
+A. Dielectric earth.
+C. De-ionized earth.
+D. Disinfected earth.
+
+Small gaseous chlorine leaks in and around a chlorinator can be detected by the use of a solution made from:
+A. Ammonia
+B. Hypochlorite
+C. Lime
+D. Soda ash
+
+When chlorine gas leaks from the disinfection assembly, the use of water may cause: 
+B. Hydrochloric acid to form.
+A. An explosion.
+C. Toxic gases.
+D. A dense white smoke.
+
+If ammonia vapour is passed over a chlorine leak in a cylinder valve, the presence of the leak is indicated by a:
+B. White cloud.
+A. Yellow cloud.
+C. Grey cloud.
+D. Brown cloud.
+
+A gas chlorinator has the following conditions: chlorine inlet pressure is very low, frost appears on chlorine supply header, reducing chlorine feed rate doesn't help, and changing chlorine cylinders doesn't help. What is the most likely cause of reduced chlorine feed rate in the Rotameter?
+A. Supply line clogged
+B. Reducing valve clogged
+C. Pressure relief valve diaphragm ruptured.
+D. Excessive feed rate
+
+A gas chlorinator has been diagnosed with the following conditions: chlorine cylinder valve closed, ball in Rotameter drops to zero, ejector water supply is off, chlorine supply indicator at unit shows no supply, chlorine supply indicator resets after 10 minutes. What is the most likely cause of the chlorinator problem?
+A. Vacuum leak after the indicator tube
+B. Injector clogged
+C. Ejector water supply valve closed
+D. Ejector nozzle clogged
+
+Which of the following would be classified as a positive displacement pump?
+D. Reciprocating pump
+A. Centrifugal pump
+B. Jet pump
+C. Propeller pump
+
+Cavitation is a condition that:
+C. Occurs when inlet pressure drops below design pressure.
+A. Damages the packing in a pump.
+B. Occurs when a pump is operated at higher than design flows
+D. Occurs when liquid being pumped contains solids.
+
+The most rapid damage to a centrifugal pump is from: 
+A. cavitation
+B. excessive head pressure
+C. high velocity
+D. sand
+
+When using a fire hydrant, the valve should be opened:
+D. To the full open position.
+A. Only by fire department personnel.
+B. Only one and one-half turns.
+C. Quickly to prevent surges in the main line.
+
+The leakage of seal water around the packing on a centrifugal pump is required because it acts as a(n):
+B. Coolant.
+A. Adhesive.
+C. Corrosion inhibitor.
+D. Scale inhibitor.
+
+Which of the following is not a backflow prevention device?
+B. Increased pressure devices
+A. Air gap separation
+C. Double check valve
+D. Vacuum breaker
+
+What device measures the rate of flow of gases?
+B. Rotameter
+A. Parshall flume
+C. Float
+D. Weir
+
+Aeration in water treatment plants is used to:
+B. Reduce concentrations of dissolved gases.
+A. Lower the ph.
+C. Reduce turbidity.
+D. Stabilize chlorine residuals.
+
+The aeration process tends to decrease all of the following except
+B. Dissolved oxygen.
+A. Carbon dioxide.
+C. Hydrogen sulfide.
+D. Volatile organic chemicals.
+
+A zeolite softening unit will replace calcium and magnesium ions with _____ ions
+C. Sodium
+A. Fluoride
+B. Iron
+D. Sulphur
+
+What are the two most important safety concerns when entering a confined space?
+D. Oxygen deficiency and hazardous gases
+A. Corrosive chemicals and falls
+B. Bad odors and claustrophobia
+C. Extreme air temperatures and slippery surfaces
+
+During a confined space entry, how often must the confined space be monitored for hazardous atmospheres?
+A. Continuously
+B. Every five minutes
+C. Before entry only
+D. Before entry and then once per hour during entry
+
+What information must be on a warning tag attached to a switch that has been locked out?
+A. Name of person who locked out the switch
+B. Exact time the switch was locked out
+C. Date the switch can be unlocked
+D. Name of the shift supervisor
+
+Which one of the following items must be replaced when connecting a new chlorine cylinder?
+B. Gasket
+A. Air and water regulator
+C. Needle valve and seat
+D. Pressure regulator
+
+The chlorine gas feed rate is usually controlled by adjusting the:
+D. Rotameter control valve.
+A. Water flow to the injector.
+B. Valve on the chlorine cylinder.
+C. Pressure in the chlorine cylinder.
+
+Disinfection for Giardia cysts may be accomplished using which of the following methods?
+A. Chlorination and filtration
+B. Filtration and aeration
+C. Fluoridation and stabilization
+D. Sedimentation and coagulation
+
+Two tests used to monitor the effectiveness of the disinfection are: tering a confined
+B. Chlorine residual and bacteriological tests
+A. Chlorine demand and chlorine residual tests
+C. Membrane filter and multiple-tube tests
+D. Standard plate count and chlorine demand test
+
+Which of the following is the most effective compound for controlling algae growth?
+B. Copper Sulphate
+A. Aluminum Sulphate
+C. Ferrous Sulphate
+D. Magnesium Sulphate
+
+In general, when the pH of treated water is below 6.5, which of the following is indicated?
+C. Water that tends to be corrosive out
+A. High alkalinity
+B. A free chlorine residual greater than 1.0 mg/L
+D. Extremely high total solids content
+
+If Geosmin and 2-methylisoborneol are found in your raw water supply, what is the principal difficulty that can be expected?
+D. Tastes and odours
+A. Carbon dioxide production
+B. Lowered pH
+C. Sand encrustation
+
+Which form of hypochlorite is the most dangerous to handle?
+C. Calcium
+A. Sodium
+B. Fluoride
+D. Chlorine
+
+What type of fire extinguisher should be used for fires with live electricity present? 
+C. Class C
+A. Class A
+B. Class B
+D. Class D
+
+A water plant produces 870m3/d. The raw water has a fluoride content of 0.2 mg/L. The operator wants to feed sodium fluoride (95% pure) so that the finished water will have a fluoride content of 0.8 mg/L. Sodium fluoride (NaF) has a fluoride content of 45%. How many kg per day of NaF should be fed?
+B. 1.2
+A. 0.68
+C. 2.5
+D. 3.1
+
+A chemical feed pump lowers a 800 mm diameter chemical container 300 mm in 3 hours. What is the chemical feed rate?
+A. 1200 litres per day
+B. 800 litres per day
+C. 3700 litres per day
+D. 2200 litres per day
+
+Which component of a centrifugal pump moves the water?
+B. Impeller
+A. Cylinder
+C. Shaft
+D. Valve
+
+Flexible couplings used to connect the motor and the pump shaft transmit: 
+A. Power efficiently and effectively from one shaft to the other.
+B. Wear on bearings to the shaft sleeve.
+C. Shock loads and pulsations.
+D. Load reversals.
+
+Centrifugal pump parts include:
+D. volute
+A. diaphragm
+B. piston
+C. rotor
+
+The advantage to using the oxidant ozone is that it 
+d. has little pH effect.
+a. is easily generated using relatively little energy.
+b. is easily fed into the treatment process.
+c. is noncorrosive.
+
+Pretreatment with chlorine is being eliminated at many water treatment plants because it has been shown to
+c. sometimes produce disinfection by-products known to be carcinogenic. 
+a. react with floc and not much with organics, pathogens, or algae; thus it is a waste of resources and money.
+b. react with organics almost exclusively and not much with pathogens or algae; thus it is a waste of resources and money.
+d. react by as much as 95% of its concentration with concrete walls and metal structures before oxidizing pathogens, organics, and algae.
+
+C x T values are based on
+b. concentration of chlorine, contact time, pH, and temperature.
+a. concentration of chlorine, contact time, and pH.
+c. concentration of chlorine, contact time, pH, and water impurities.
+d. concentration of chlorine, contact time, alkalinity, pH, and temperature. 
+
+If enteric disease-causing protozoans have been found in the effluent of a water plant, which of the following is the most probable solution? 
+c. Use the multibarrier approach-coagulation, flocculation, sedimenta-tion, and filtration.
+a. Where possible, use powdered activated carbon (PAC) throughout the water plant; backwashing filters will remove the PAC.
+b. Use PAC only in the sedimentation basin; backwashing the filters will remove the PAC.
+d. Superchlorinate the water plant.
+
+What is the major cause of short-circuiting in a sedimentation basin? 
+c. Poor inlet baffling
+a. Open basins that are subject to algal growths and thick slime growths on the side of the basin
+b. Basins without a wind break
+d. Density currents
+
+Conventional sedimentation has a _____ removal of Cryptosporidium oocysts.
+a. less than 0.5-log
+b. 0.5-log
+c. 1.0-log
+d. 2.0-log
+
+Dissolved-air flotation is particularly good for removing
+d. algae.
+a. sulfides.
+b. inorganics.
+c. manganese and iron.
+
+An example of _____ is determining the lowest monthly average during 12-month monitoring of Giardia and virus inactivation.
+a. benchmarking
+b. profiling
+c. categorizing
+d. surveying
+
+Water being served to the public for a population greater than 3,300 must not have a disinfectant residual entering the distribution system below ____ for more than 4 hours.
+b. 0.2 mg/L
+a. 0.1 mg/L
+c. 0.3 mg/L
+d. 0.4 mg/L
+
+What is the action level for copper?
+c. 1.3 mg/L
+a. 0.5 mg/L
+b. 1.0 mg/L
+d. 1.8 mg/L
+
+Where are the sampling point(s) located for required sampling of turbid- ity in a community water system?
+c. At point(s) where water enters the distribution system, including all filter effluents if a surface water treatment plant
+a. At representative points within the distribution system
+b. 75% at locations representative of population distribution and 25% at the farthest points in the distribution system
+d. At effluents of all filters if a surface water treatment plant, at entry points to the distribution system, and at locations representative of population distribution
+
+Under the Surface Water Treatment Rule, disinfection residuals must be collected at the same location in the distribution system as
+a. coliform samples.
+b. total trihalomethanes.
+c. disinfection by-products.
+d. alkalinity, conductivity, and pH for corrosion studies.
+
+What is the MCL for haloacetic acids (HAAS)?
+b. 0.060 mg/L
+a. 0.040 mg/L
+c. 0.080 mg/L
+d. 0.100 mg/L 
+
+What is the optimal pH range for the removal of particulate matter when using alum as a coagulant?
+c. 6.5 to 7.2
+a. 4.5 to 5.7
+b. 5.8 to 6.5
+d. 7.3 to 8.1
+
+Which forces will pull particles together once they have been destabilized in the coagulation-flocculation process?
+a. van der Waals forces
+b. Zeta potential
+c. Ionic forces
+d. Quantum forces
+
+Which of the following is a common mistake that operators make in regard to flocculation units?
+a. Excessive flocculation time
+b. Lack of food-grade NSF-approved grease on the flocculator bearings 
+c. Keeping the mixing energy the same in all flocculation units 
+d. Too short a flocculation time
+
+Ferric sulfate has which advantage over aluminum sulfate (alum)?
+c. More dense floc
+a. Less staining characteristics
+b. Less cost
+d. Not as corrosive
+
+The lower the____, the more difficult it is to form a proper floc.
+a. temperature
+b. turbidity
+c. pH
+d. alkalinity
+
+Jar test results are expressed in
+a. milligrams per liter.
+b. gallons per day.
+c. whatever unit the treatment system has decided to use.
+d. parts per million.
+
+As solids settle to the bottom of a sedimentation basin,
+b. a sludge layer develops.
+a. tank pressure is reduced.
+c. movement of sediment accelerates.
+d. water pH decreases.
+
+Which of the following is the layer of solids and biological growth that forms on the top of a slow-sand filter?
+c. Schmutzdecke
+a. Biosolids film
+b. Bio-carbonated scale layer 
+d. Saprophytic layer
+
+Filter tanks are generally 
+b. rectangular and constructed of concrete. 
+a. spherical and constructed of steel. 
+c. rectangular and constructed of steel. 
+d. cylindrical and constructed of concrete.
+
+In a typical air-scour sequence, air is applied ____ backwash water is introduced.
+a. before
+b. while
+c. after
+d. both before and after
+
+How many lb/day of sodium fluorosilicate (Na2SiF2) is required given the following parameters? \n Flow rate is 1,750 gpm. *Fluoride desired is 1.20 mg/L. \n Fluoride in raw water is 0.15 mg/L. Sodium fluorosilicate is 98.1% pure. *Fluoride (F) ion percent is 60.6%.
+b. 37 lb/day,
+a. 34 lb/day, 
+c. 42 lb/day, 
+d. 48 lb/day, 
+
+A filter is 24 ft by 28 ft. Calculate the filtration rate in gpm, if it receives a flow of 3,250 gpm.
+b. 4.8 gpm/ft2
+a. 4.4 gpm/ft2
+c. 5.0 gpm/ft2
+d. 5.1 gpm/ft2
+
+Pressure measured in terms of the height of water (in meters or feet) is referred to as
+b. head.
+a. gauge pressure.
+c. barometric pressure.
+d. absolute pressure.
+
+In the equation to convert milligrams-per-liter concentration to pounds per day, (dosage) (flow rate) (conversion factor)
+a. feed rate.
+b. feed demand.
+c. feed capacity.
+d. total feed.
