@@ -6,6 +6,8 @@ const QUESTION_OPTIONS = 4;
 
 var score = 0;
 var questionCounter = 0;
+var question_type = [questions_OIT, questions_WT12, questions_WTII];
+var active_question_type = 0;
 var total;
 var buttonContainersContainers = [];
 var question_quantity = 10;
@@ -245,7 +247,28 @@ function generate_quiz(element){
     element.style.opacity = 0.5;
     question_quantity = element.innerHTML;
     clean_window();
-    generate_mc(questions_OIT, question_quantity);
+    generate_mc(question_type[active_question_type], question_quantity);
+}
+
+// category switch
+function category_function(element)
+{
+    // change active question type
+    active_question_type = element.id;
+
+    // get number of questions; run quiz generation
+    if (document.getElementById("10").disabled == true)
+    {
+        generate_quiz(document.getElementById("10"));
+    }
+    else if (document.getElementById("20").disabled)
+    {
+        generate_quiz(document.getElementById("20"));
+    }
+    else
+    {
+        generate_quiz(document.getElementById("40"));
+    }
 }
 
 // on load

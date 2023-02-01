@@ -30,13 +30,12 @@ D. 50 mg/L chlorine for 24 hours
 
 Which of the following statements is not true regarding adverse water quality results?
 A. An adverse water quality result must be reported by the owner / operator immediately to the Medical Officer of Health and the Ministry of the Environment.
-B An adverse water quality result must be confirmed through re-testing before being reported.
+B. An adverse water quality result must be confirmed through re-testing before being reported.
 C. An adverse water quality result must be reported by the laboratory to the owner/operator, the Medical Officer of Health and the Ministry of the Environment.
 D. A written report must follow a verbal report of an adverse water quality result to the Medical Officer of Health and the Ministry of the Environment.
 
 Which of the following is not an adverse water quality indicator?
-A. Free chlorine residual below 0.05 in a distribution system sample from a system
-that provides secondary chlorination.
+A. Free chlorine residual below 0.05 in a distribution system sample from a system that provides secondary chlorination.
 B. Colored water caused by iron and manganese oxidation.
 C. Fluoride concentration greater than 1.5 mg/L.
 D. Heterotrophic plate counts greater than 500 CFU/ml.
