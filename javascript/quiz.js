@@ -191,6 +191,17 @@ function pbar_update(){
     questions_done += 1;
     pbar = document.getElementById("pbar");
     bar_percent = questions_done / question_quantity * 100;
+
+    pbar.innerHTML = questions_done + "/" + question_quantity;
+
+    if (bar_percent == 100)
+    {
+        pbar.innerHTML = "All Questions Complete. See Bottom For Results";
+        pbar.addEventListener("click", function(event) {
+            window.scrollTo(document.getElementById("answers"));
+        })
+    }
+
     pbar.style.width = bar_percent + "%";
 }
 
@@ -224,14 +235,15 @@ function results() {
         document.getElementById("answers").hidden = false;
         document.getElementById("refresh").hidden = false;
     }
+
 }
 
 // cleans window
 function clean_window(){
 
-    // reset vars
-    questionCounter = 0;
-    questions_done = 0;
+    // reset vars && progress bar
+    questions_done = -1;
+    pbar_update();
     buttonContainersContainers = [];
 
     parent = document.getElementById("mc_container");
@@ -245,6 +257,7 @@ function clean_window(){
     document.getElementById("answers").hidden = true;
     document.getElementById("refresh").hidden = true;
     window.scrollTo({top: 0, behavior: 'smooth'});
+
 }
 
 
