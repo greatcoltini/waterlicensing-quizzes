@@ -19,74 +19,86 @@
 
 </head>
 
-<body>
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md me-auto sticky-top navbar-dark bg-dark ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"> <strong>WATER TREATMENT LICENSING</strong> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul id="navbar-btns" class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item text-center">
-                        <a id="0" onclick="category_function(this)" class="btn text-dark btn-primary"> OIT </a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a id="1" onclick="category_function(this)" class="btn btn-outline-primary"> WT - I </a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a id="2" onclick="category_function(this)" class="btn btn-outline-primary"> WT - II </a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a id="3" class="btn btn-outline-primary"> WT - III </a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a id="4" class="btn btn-outline-primary"> WT - IV </a>
-                    </li>
-                    <li class="nav-item text-center px-5">
-                        <a id="5" class="btn btn-outline-primary">STUDY MATERIALS</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- file input sec -->
-    <input type="file" id="file-selector" hidden>
-
-    <!-- quiz selection control -->
-    <div class="container card" id="quiz_quantity">
-        <header> NUMBER OF QUESTIONS </header>
-        <button id="10" onclick="generate_quiz(this)"> 10 </button>
-        <button id="20" onclick="generate_quiz(this)"> 20 </button>
-        <button id="40" onclick="generate_quiz(this)"> 40 </button>
-    </div>
-
-    <!-- quiz generation -->
-    <div class="container-fluid">
-        <!-- QUESTIONNAIRE CONTAINER -->
-        <div class="mc_container container-fluid" id="mc_container">
-
-        </div>
-
-        <div class="container-fluid">
-            <div id="answer_cont" class="container" hidden>
-                <div class="section">
-                    <h2> RESULTS </h2>
-                    <hr>
-                    <button id="refresh" onclick="refreshButtons()" hidden> Refresh </button>
-                    <h4 id="answers" hidden></h4>
+<body class="d-flex flex-column h-100">
+    
+    <main class="flex-shrink-0">
+      
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md me-auto sticky-top navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <strong>WATER TREATMENT LICENSING</strong> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul id="navbar-btns" class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-center">
+                            <a id="0" onclick="category_function(this)" class="btn text-dark btn-primary"> OIT </a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a id="1" onclick="category_function(this)" class="btn btn-outline-primary"> WT - I </a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a id="2" onclick="category_function(this)" class="btn btn-outline-primary"> WT - II </a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a id="3" class="btn btn-outline-primary"> WT - III </a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a id="4" class="btn btn-outline-primary"> WT - IV </a>
+                        </li>
+                        <li class="nav-item text-center px-5">
+                            <a id="5" class="btn btn-outline-primary">STUDY MATERIALS</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+
+        <!-- file input sec -->
+        <input type="file" id="file-selector" hidden>
+
+        <!-- quiz selection control -->
+        <div class="container card my-4 py-3" id="quiz_quantity">
+            <header class="h2 text-primary"> NUMBER OF QUESTIONS </header>
+            <button id="10" onclick="generate_quiz(this)"> 10 </button>
+            <button id="20" onclick="generate_quiz(this)"> 20 </button>
+            <button id="40" onclick="generate_quiz(this)"> 40 </button>
         </div>
 
-    </div>
+        <!-- quiz generation -->
+        <div class="container-fluid">
+            <!-- QUESTIONNAIRE CONTAINER -->
+            <div class="mc_container container-fluid" id="mc_container">
+
+            </div>
+
+            <div class="container-fluid">
+                <div id="answer_cont" class="container" hidden>
+                    <div class="section">
+                        <h2> RESULTS </h2>
+                        <hr>
+                        <button id="refresh" onclick="refreshButtons()" hidden> Refresh </button>
+                        <h4 id="answers" hidden></h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- quiz progress footer -->
+    <footer class="footer sticky-bottom mt-auto py-3 bg-dark">
+        <div class="container">
+            <div class="progress" role="progressbars" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div id="pbar" class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0%"></div>
+              </div>
+        </div>
+    </footer>
 
     <!-- footer -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark">
         <footer class="py-2 my-2 border-top">
             <div class="flex-lg-row">
                 <div class="socials" style="right:17vw">

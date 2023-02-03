@@ -12,6 +12,7 @@ var active_question_type = 0;
 var total;
 var buttonContainersContainers = [];
 var question_quantity = 10;
+var questions_done = 0;
 
 
 // generates the multiple choice optipons; based on the number of questions
@@ -168,6 +169,8 @@ function buttonLogic(target, id, success) {
 
     var buttons = document.getElementsByClassName("btngrp" + id);
 
+    pbar_update();
+
     target.style.background = "red";
 
     if (success)
@@ -182,6 +185,14 @@ function buttonLogic(target, id, success) {
     }
 
 };
+
+// logic for updating progress bar
+function pbar_update(){
+    questions_done += 1;
+    pbar = document.getElementById("pbar");
+    bar_percent = questions_done / question_quantity * 100;
+    pbar.style.width = bar_percent + "%";
+}
 
 
 // results function .. appears on all disabled
@@ -220,6 +231,7 @@ function clean_window(){
 
     // reset vars
     questionCounter = 0;
+    questions_done = 0;
     buttonContainersContainers = [];
 
     parent = document.getElementById("mc_container");
