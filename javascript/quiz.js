@@ -5,14 +5,14 @@ const TARGET_NODE = document.getElementById('mc_container');
 const QUESTION_OPTIONS = 4;
 
 // variables instantiation
-var score = 0;
-var questionCounter = 0;
-var question_type = [questions_OIT, questions_WTI, questions_WTII];
-var active_question_type = 0;
-var total;
-var buttonContainersContainers = [];
-var question_quantity = 10;
-var questions_done = 0;
+let score = 0;
+let questionCounter = 0;
+let question_type = [questions_OIT, questions_WTI, questions_WTII];
+let active_question_type = 0;
+let total;
+let buttonContainersContainers = [];
+let question_quantity = 10;
+let questions_done = 0;
 
 
 // generates the multiple choice optipons; based on the number of questions
@@ -167,7 +167,7 @@ function shuffle(array) {
 // Logic for MC buttons generic
 function buttonLogic(target, id, success) {
 
-    var buttons = document.getElementsByClassName("btngrp" + id);
+    let buttons = document.getElementsByClassName("btngrp" + id);
 
     pbar_update();
 
@@ -208,8 +208,8 @@ function pbar_update(){
 
 // results function .. appears on all disabled
 function results() {
-    var all_disabled = true;
-    var list = []
+    let all_disabled = true;
+    let list = []
     $('[class]').each(function() {
       this.classList.forEach(function(className) {
         if (!className.indexOf('btngrp') && !list.includes(className)) {
@@ -219,7 +219,7 @@ function results() {
     })
 
     for (const item of list){
-        var elements = document.getElementsByClassName(item);
+        let elements = document.getElementsByClassName(item);
 
         for (const element of elements) {
             if (element.disabled != true)
@@ -273,7 +273,7 @@ function refreshButtons(){
 function generate_quiz(element){
 
      // generate number of questions based on selected option
-     for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
+     for (let child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
         child.disabled = false;
 
         // properly select button for opacity adjustment
@@ -299,8 +299,8 @@ function category_function(element)
     active_question_type = element.id;
 
     // disable selected question type btn
-    var nodes = document.getElementById("navbar-btns").getElementsByTagName("a");
-    for (var i = 0; i < nodes.length; i++)
+    let nodes = document.getElementById("navbar-btns").getElementsByTagName("a");
+    for (let i = 0; i < nodes.length; i++)
     {
         if (nodes[i] == element)
         {
@@ -316,7 +316,7 @@ function category_function(element)
     }
 
     // generate number of questions based on selected option
-    for (var child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
+    for (let child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
         if (child.disabled)
         {
             generate_quiz(child);
