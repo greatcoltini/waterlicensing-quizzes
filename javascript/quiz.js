@@ -65,7 +65,7 @@ function multipleChoiceTemplate(counter, questions_type) {
     let q_sec = document.createElement("section");
     let q_header = document.createElement("h2");
     let q_hr = document.createElement('hr');
-    q_header.innerHTML = "QUESTION " + (questionCounter);
+    // q_header.innerHTML = "QUESTION " + (questionCounter);
     q_header.classList.add('text-center');
     let q_h3 = document.createElement("h3");
     q_h3.innerHTML = questions_type[counter][0];
@@ -243,6 +243,7 @@ function clean_window(){
 
     // reset vars && progress bar
     questions_done = -1;
+    questionCounter = 0;
     pbar_update();
     buttonContainersContainers = [];
 
