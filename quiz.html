@@ -19,6 +19,7 @@
 
 </head>
 
+<!-- body -->
 <body class="d-flex flex-column h-100">
     
     <main class="flex-shrink-0">
@@ -32,22 +33,55 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul id="navbar-btns" class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item text-center">
-                            <a id="0" onclick="category_function(this)" class="btn text-dark btn-primary"> OIT </a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a id="1" onclick="category_function(this)" class="btn btn-outline-primary"> WT - I </a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a id="2" onclick="category_function(this)" class="btn btn-outline-primary"> WT - II </a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a id="3" class="btn btn-outline-primary" hidden> WT - III </a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a id="4" class="btn btn-outline-primary" hidden> WT - IV </a>
-                        </li>
+                    <ul id="navbar-btns" class="navbar-nav ms-auto mb-2 mb-lg-0 mx-auto">
+                        <div id="treatment-dropdown"  class="btn-group">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                              Treatment
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                              <li><a id="0" onclick="category_function(this)" class="dropdown-item">OIT</a></li>
+                              <li><a id="1" onclick="category_function(this)" class="dropdown-item">WT - I</a></li>
+                              <li><a id="2" onclick="category_function(this)" class="dropdown-item">WT - II</a></li>
+                              <li><a class="dropdown-item disabled" >WT - III</a></li>
+                              <li><a class="dropdown-item disabled">WT - IV</a></li>
+                            </ul>
+                        </div>         
+                        <div id="treatment-dropdown"  class="btn-group">
+                            <button class="btn btn-primary dropdown-toggle disabled" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                              Distribution
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                              <li><a id="0" onclick="category_function(this)" class="dropdown-item">OIT</a></li>
+                              <li><a id="1" onclick="category_function(this)" class="dropdown-item">WT - I</a></li>
+                              <li><a id="2" onclick="category_function(this)" class="dropdown-item">WT - II</a></li>
+                              <li><a class="dropdown-item disabled" >WT - III</a></li>
+                              <li><a class="dropdown-item disabled">WT - IV</a></li>
+                            </ul>
+                        </div> 
+                        <div id="treatment-dropdown"  class="btn-group">
+                            <button class="btn btn-primary dropdown-toggle disabled" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                              Collection
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                              <li><a id="0" onclick="category_function(this)" class="dropdown-item">OIT</a></li>
+                              <li><a id="1" onclick="category_function(this)" class="dropdown-item">WT - I</a></li>
+                              <li><a id="2" onclick="category_function(this)" class="dropdown-item">WT - II</a></li>
+                              <li><a class="dropdown-item disabled" >WT - III</a></li>
+                              <li><a class="dropdown-item disabled">WT - IV</a></li>
+                            </ul>
+                        </div> 
+                        <div id="treatment-dropdown"  class="btn-group">
+                            <button class="btn btn-primary dropdown-toggle disabled" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                              Wastewater
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                              <li><a id="0" onclick="category_function(this)" class="dropdown-item">OIT</a></li>
+                              <li><a id="1" onclick="category_function(this)" class="dropdown-item">WT - I</a></li>
+                              <li><a id="2" onclick="category_function(this)" class="dropdown-item">WT - II</a></li>
+                              <li><a class="dropdown-item disabled" >WT - III</a></li>
+                              <li><a class="dropdown-item disabled">WT - IV</a></li>
+                            </ul>
+                        </div> 
                         <li class="nav-item text-center px-5">
                             <a id="5" class="btn btn-outline-primary">STUDY MATERIALS</a>
                         </li>
@@ -56,8 +90,10 @@
             </div>
         </nav>
 
+
         <!-- file input sec -->
         <input type="file" id="file-selector" hidden>
+
 
         <!-- quiz selection control -->
         <div class="container card my-4 py-3" id="quiz_quantity">
@@ -67,12 +103,16 @@
             <button id="40" onclick="generate_quiz(this)"> 40 </button>
         </div>
 
+
         <!-- quiz generation -->
         <div class="container-fluid">
+
+
             <!-- QUESTIONNAIRE CONTAINER -->
             <div class="mc_container container-fluid" id="mc_container">
 
             </div>
+
 
             <div class="container-fluid">
                 <div id="answer_cont" class="container" hidden>
