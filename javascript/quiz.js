@@ -308,7 +308,10 @@ function category_function(element)
     // change active question type
     active_question_type = element.id;
 
+
     // changes active dropdown text
+    document.getElementById("defaultDropdown").innerHTML = element.innerHTML;
+
 
     // disable selected question type btn
     let nodes = document.getElementById("navbar-btns").getElementsByTagName("a");
@@ -327,6 +330,7 @@ function category_function(element)
         }
     }
 
+
     // generate number of questions based on selected option
     for (let child=document.getElementById("quiz_quantity").firstChild; child!==null; child=child.nextSibling){
         if (child.disabled)
@@ -337,7 +341,7 @@ function category_function(element)
 }
 
 
-// on load ; we generate a
+// on load ; we generate a quiz; starting with OIT
 window.addEventListener('load', (event) => {
     add_read_event(document.getElementById("file-selector"));
   generate_quiz(document.getElementById("10"));
