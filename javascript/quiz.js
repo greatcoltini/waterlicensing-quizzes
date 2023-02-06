@@ -167,7 +167,17 @@ function shuffle(array) {
 // Logic for MC buttons generic
 function buttonLogic(target, id, success) {
 
+    // get variables
     let buttons = document.getElementsByClassName("btngrp" + id);
+
+    let button_og = buttons[0];
+
+    let parent = button_og.parentElement;
+
+    // fade parents
+    parent.style.opacity = "0.5";
+    parent.style.backgroundColor = "lightgrey";
+
 
     pbar_update();
 
