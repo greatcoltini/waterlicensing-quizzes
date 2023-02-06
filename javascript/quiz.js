@@ -308,6 +308,8 @@ function category_function(element)
     // change active question type
     active_question_type = element.id;
 
+    // changes active dropdown text
+
     // disable selected question type btn
     let nodes = document.getElementById("navbar-btns").getElementsByTagName("a");
     for (let i = 0; i < nodes.length; i++)
