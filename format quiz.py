@@ -1,11 +1,11 @@
 # open files for import and export
-format_file = open("test_input_wt12.txt", 'r')
-output_file = open("test_output_wt12.js", 'w')
+format_file = open("test_input_wwt1.txt", 'r')
+output_file = open("test_output_wwt1.js", 'w')
 
 # constants for REGEX ? 
 removed_prefix = ["a)", "b)", "c)", "d)", "A.", "B.", "C.", "D.", "a.", "b.", "c.", "d."]
 
-output_file.write("const questions_WT12 = [")
+output_file.write("const questions_WWT1 = [")
 
 # counter for processing data
 counter = 0

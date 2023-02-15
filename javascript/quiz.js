@@ -1,6 +1,9 @@
 // Create function to generate a template for a MC button selection
 const TARGET_NODE = document.getElementById('mc_container');
 
+// const for dropdowns
+const DROPDOWN_MENUS = ["treatment-dropdown", "distribution-dropdown", "collection-dropdown", "wastewater-dropdown"];
+
 // const outlining number of buttons to present
 const QUESTION_OPTIONS = 4;
 
@@ -311,6 +314,11 @@ function category_function(element)
 
     // changes active dropdown text
     document.getElementById("defaultDropdown").innerHTML = element.innerHTML;
+    active_dropdown = element.parentElement.parentElement.parentElement;
+
+    // reset dropdowns
+
+    active_dropdown.style.backgroundColor = "green";
 
 
     // disable selected question type btn
@@ -337,6 +345,13 @@ function category_function(element)
         {
             generate_quiz(child);
         }
+    }
+}
+
+function reset_dropdowns(){
+    for (let i = 0; i < 4; i ++)
+    {
+        
     }
 }
 
