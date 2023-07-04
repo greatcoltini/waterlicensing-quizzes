@@ -1,0 +1,164 @@
+What is the acceptable range for fluoride for large and small municipal residential systems that fluoridate?
+a.	0.5 to 0.8 mg/L
+b.	0.3 to 0.6 mg/L
+c.	1.2 to 1.5 mg/L
+d.	0.8 to 1.0 mg/L
+
+What does GUDI stand for?
+a.	Groundwater under the direct influence of surface water
+b.	Groundwater and underground disinfection inactivation
+c.	Good utilization of disinfection inactivation
+d.	Groundwater underground within distribution infrastructure
+
+What is the minimum disinfection requirements for GUDI?
+a.	The same as surface water
+b.	The same as groundwater
+c.	Less than surface water, but greater than groundwater
+d.	50 mg/L of chlorine for 24 hours
+
+Which of the following statements is not true regarding adverse water quality results?
+a.	An adverse water quality result must be reported by the owner/operator immediately to the Medical Officer of Health and the Ministry of the Environment
+b.	An adverse water quality result must be confirmed through re-testing before being reported
+c.	An adverse water quality result must be reported by the laboratory to the owner/operator, the Medical Officer of Health and the Ministry of the Environment
+d.	A written report must follow a verbal report of an adverse water quality result to the Medical Officer of Health and the Ministry of the Environment
+
+Which one of the following is not an adverse water quality indicator?
+a.	Coloured water caused by iron and manganese oxidation
+b.	Free chlorine residual below 0.05 mg/L in a distribibution system sample from a system that provides secondary chlorination
+c.	Flouride concentration greater than 1.5 mg/L
+d.	Heterotrophic plate counts greater than 500 CFU/ml
+
+The minimum frequency and location of sampling for a municipal water system is specified by the 
+a.	O. Reg. 170/03
+b.	Federal Government
+c.	Plant Manager
+d.	Operator-In-Charge
+
+What is the maximum aesthetic objective for turbidity of water at the point of consumption?
+a.	5.0 NTU
+b.	0.1 NTU
+c.	0.5 NTU
+d.	3.0 NTU
+
+The detention time may be defined as the actual time that a small amount of water is retained in the sedimentation basin
+a.	True
+b.	False
+
+Test and odours can be created by numerous conditions, including
+a.	All of the above
+b.	Dissolved gases such as Hydrogen Sulphide
+c.	Biological growths such as algae, protozoa, and slimes
+d.	Contaminants from wastewater effluents and surface runoffs
+e.	Contaminants from industrial discharges
+
+The DPD test may be used to determine _____________________
+a.	Chlorine residual
+b.	Alkalinity
+c.	Dissolved oxygen
+d.	Hardness
+
+Which of the following is a major part of a turbidimeter?
+a.	Light source
+b.	Objective nosepiece
+c.	Reference electrode
+d.	Aspirator
+
+pH is a measure of ___________________
+a.	Hydrogen ion concentration
+b.	Conductivity
+c.	Water’s ability to neutralize acid
+d.	Dissolved solids
+
+Prepared water sample bottles used for collecting samples for bacteriological testing contain sodium thiosulphate crystals. It is important not to rinse out the sample bottle because the sodium thiosulphate _________________.
+a.	Neutralizes any chlorine present in the sample.
+b.	Eliminates the need for refrigerating the sample
+c.	Holds pH at a constant value
+d.	Kills any pathogens that may be present in the sample
+
+Which of the following elements cause hardness in water?
+a.	Calcium and magnesium
+b.	Sodium and potassium
+c.	Nitrogen and sulfur
+d.	Fluoride and oxygen
+
+What is the correct order, from smallest to largest, for the pathogens that cause disease?
+a.	Virus, Bacteria, Protozoa
+b.	Protozoa, Bacteria, Virus
+c.	Bacteria, Virus, Protozoa
+d.	Protozoa, Virus, Bacteria
+
+Turbidity can be caused by _______________________.
+a.	Unsettled particulate matter
+b.	Adequate filtration
+c.	Ultraviolet irradiation
+d.	Inadequate baffling
+
+The term “surface runoff” refers to _____________.
+a.	Water that flows into rivers after a rainfall
+b.	Rainwater that soaks into the ground
+c.	Rain that returns to the atmosphere from the earth’s surface
+d.	Surface water that overflows the banks of rivers
+
+Which source of water has the greatest natural protection from bacterial contamination?
+a.	Deep well in gravel
+b.	Shallow well
+c.	Surface water
+d.	Spring
+
+Which of the following contributes to the creation of algae blooms?
+a.	Increased nutrients
+b.	Increased turbidity
+c.	Decreased air temperature
+d.	Increased wind action
+
+A major health risk associated with nitrates is ________________________.
+a.	“Blue Baby” syndrome
+b.	Cancer
+c.	Acute respiratory diseases
+d.	Reduced IQ in children
+
+A disease that can transferred by water is ________________________.
+a.	Gonorrhea
+b.	Malaria
+c.	Mumps
+d.	Typhoid
+
+Presence of total coliforms in drinking water indicates________________.
+a.	The potential presence of pathogens
+b.	The presence of pathogens
+c.	The absence of an adequate chlorine residual
+d.	The existence of an urgent public health problems
+
+It takes at least 10 pipe diameters of straight pipe for complete mixing of chlorine solution.
+a. True
+b. False
+
+How many liters of water will av 7 L/s pump deliver in 57 minutes?
+a.	23940 L
+b.	23840 L
+c.	23740 L
+d.	None of the above
+
+What is the volume of a cylinder that is 5.5 m high and has a diameter of 4.3 in.?
+a.	80 m3
+b.	24 m3
+c.	74 m3
+d.	102 m3
+
+If one cm. represents 0.5 m on a scaled drawing, then how many cm will represent 8.7 m?
+a.	17.4 cm
+b.	4.35 cm
+c.	8.7 cm
+d.	43.5 cm
+
+5 mg/L is equivalent to ________________parts per million.
+a.	5.0
+b.	2.5 
+c.	10
+d.	50
+
+How many liters of water can be contained in a pipeline that is 150 mm in diameter and 10 km long?
+a.	176715 L
+b.	9500 L
+c.	112500 L
+d.	234900 L
