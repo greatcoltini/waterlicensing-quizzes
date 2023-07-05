@@ -97,13 +97,15 @@ function multipleChoiceTemplate(counter, questions_type) {
 
         opt.setAttribute('name', questions_type[counter][i + 1]);
 
+        let success_text = questions_type[counter][1]
+
         //  add conditional for success
         if (i == 0)
         {
-            opt.onclick = function() {buttonLogic(opt, counter, true)}
+            opt.onclick = function() {buttonLogic(opt, counter, true, success_text)}
         }
         else {
-            opt.onclick = function() {buttonLogic(opt, counter, false)};
+            opt.onclick = function() {buttonLogic(opt, counter, false, success_text)};
         }
   
         container_buttons.push(opt);
@@ -168,7 +170,7 @@ function shuffle(array) {
 
 
 // Logic for MC buttons generic
-function buttonLogic(target, id, success) {
+function buttonLogic(target, id, success, success_text) {
 
     // get variables
     let buttons = document.getElementsByClassName("btngrp" + id);
@@ -193,6 +195,8 @@ function buttonLogic(target, id, success) {
     }
 
     for (let i = 0; i <= buttons.length; i++){
+        if (buttons[i].innerHTML == success_text)
+            buttons[i].style.background = "yellow"
         buttons[i].disabled = true;
         results();
     }
