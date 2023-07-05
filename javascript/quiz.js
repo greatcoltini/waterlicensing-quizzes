@@ -195,7 +195,7 @@ function buttonLogic(target, id, success, success_text) {
     }
 
     for (let i = 0; i <= buttons.length; i++){
-        if (buttons[i].innerHTML == success_text)
+        if (buttons[i].innerHTML == success_text && !success)
             buttons[i].style.background = "yellow"
         buttons[i].disabled = true;
         results();
