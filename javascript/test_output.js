@@ -297,4 +297,8 @@ const questions_WTII = [["The advantage to using the oxidant ozone is that it ",
     ["Water is drawn into a supply system from a surface impoundment or stream through ", "an intake structure", "a backwash discharge", "a diverted aqueduct", "a natural lake"],
     ["A cirucmstance in which it is more economical or practical to provide treatment at the source, versus in a water treatment facility, is referring to as ", "in situ treatment", "destratification", "recharging", "biological infusion"],
     ["Which of the following is not a problem commonly associated with algae?", "Supply shortage", "Toxicity", "Taste and odour", "Filter clogging"],
-    ["Division of water into three layers, each of a different temperature, is referred to as ", "stratification", "infiltration", "siltration", "salinization"]].concat(questions_WT12);
+    ["Division of water into three layers, each of a different temperature, is referred to as ", "stratification", "infiltration", "siltration", "salinization"],
+    ["Which of the following is an example of non-point source water pollution?", "Pesticides", "Industrial runoff", "Wastewater discharges", "Factory oil spill"],
+    ["Which of the following is true about graduated cylinders?", "They are less accurate than a buret.", "They are less accurate than a beaker and a volumetric flask.", "They are more accurate than a buret.", "They are the least accurate measuring device."],
+    ["How do you adjust the feed rate of a volumetric feeder?", "Adapting the auger speed.", "Adjusting the pump nozzle.", "Lowering the pulley handle.", "Increasing the volume of liquid in the storage tank."],
+    ["Which of the following pumps is considered a centrifugal pump?", "Velocity pump", "Horsepower pump.", "Diaphragm pump.", "Reciprocating pump."]].concat(questions_WT12);
