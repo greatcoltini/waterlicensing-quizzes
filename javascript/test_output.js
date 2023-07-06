@@ -301,4 +301,5 @@ const questions_WTII = [["The advantage to using the oxidant ozone is that it ",
     ["Which of the following is an example of non-point source water pollution?", "Pesticides", "Industrial runoff", "Wastewater discharges", "Factory oil spill"],
     ["Which of the following is true about graduated cylinders?", "They are less accurate than a buret.", "They are less accurate than a beaker and a volumetric flask.", "They are more accurate than a buret.", "They are the least accurate measuring device."],
     ["How do you adjust the feed rate of a volumetric feeder?", "Adapting the auger speed.", "Adjusting the pump nozzle.", "Lowering the pulley handle.", "Increasing the volume of liquid in the storage tank."],
-    ["Which of the following pumps is considered a centrifugal pump?", "Velocity pump", "Horsepower pump.", "Diaphragm pump.", "Reciprocating pump."]].concat(questions_WT12);
+    ["Which of the following pumps is considered a centrifugal pump?", "Velocity pump", "Horsepower pump.", "Diaphragm pump.", "Reciprocating pump."],
+    ["During the night time, there is a decrease in dissolved oxygen in the water. This could be caused by which of the following?", "Increased algal production.",  "Decreased algal production.", "Increased nutrients in the water.", "Animals crossing the stream."]].concat(questions_WT12);
