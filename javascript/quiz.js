@@ -312,17 +312,35 @@ function generate_quiz(element){
 // category switch
 function category_function(element)
 {
+    // WORKING HERE; GOAL TO CHANGE TITLE FOR DROPDOWN AS OTHERS ARE CLICKED //
     // change active question type
     active_question_type = element.id;
 
+    // reset the dropdown titles
+    let navbtns = document.getElementById("navbar-btns").children;
+    for (let i = 0; i < navbtns.length; i++)
+    {
+        // alert("here");
+        // alert(navbtns[i]);
+        // const label_title = navbtns[i].id.split('-')[0];
+        // alert(label_title);
 
-    // changes active dropdown text
-    document.getElementById("defaultDropdown").innerHTML = element.innerHTML;
-    active_dropdown = element.parentElement.parentElement.parentElement;
+        // navbtns[i].firstChild.innerHTML = label_title;
 
-    // reset dropdowns
+        // navbtns[i].parentElement.style.backgroundColor = "None";
 
-    active_dropdown.style.backgroundColor = "green";
+        if (element.parentNode.parentNode.id == navbtns[i].id){
+            alert("we are at the correct dropdown");
+            active_dropdown = element.parentElement.parentElement.parentElement;
+            active_dropdown.style.backgroundColor = "Green";
+        }
+        
+        // changes active dropdown text
+        document.getElementById("defaultDropdown").innerHTML = element.innerHTML;
+        active_dropdown = element.parentElement.parentElement.parentElement;
+        active_dropdown.style.backgroundColor = "none";
+
+    }
 
 
     // disable selected question type btn
