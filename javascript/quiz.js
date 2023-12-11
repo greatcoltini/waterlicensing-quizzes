@@ -10,7 +10,7 @@ const QUESTION_OPTIONS = 4;
 // variables instantiation
 let score = 0;
 let questionCounter = 0;
-let question_type = [questions_OIT, questions_WTI, questions_WTII];
+let question_type = [questions_OIT, questions_WTI, questions_WTII, questions_WD1];
 let active_question_type = 0;
 let total;
 let buttonContainersContainers = [];

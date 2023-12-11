@@ -304,9 +304,20 @@ const questions_WTII = [["The advantage to using the oxidant ozone is that it ",
     ["Which of the following pumps is considered a centrifugal pump?", "Velocity pump", "Horsepower pump.", "Diaphragm pump.", "Reciprocating pump."],
     ["During the night time, there is a decrease in dissolved oxygen in the water. This could be caused by which of the following?", "Increased algal production.",  "Decreased algal production.", "Increased nutrients in the water.", "Animals crossing the stream."]].concat(questions_WT12);
 
-const questions_WD1 = [].concat(questions_WD12)
+const questions_WD1 = [["Which agency sets legal limits on the concentration levels of harmful contaminants in potable water distributed to customers?", "United States Environmental Protection Agency", "National Primary Drinking Water Regulations Agency", "US Public Health Service", "Occupational Health and Safety Administration"],
+    ["The number of monthly distribution system bacteriological samples required is ", "based on population served", "based on the water withdrawal permit limit.", "based on systems size", "different for each state"],
+    ["What is the maximum contaminant level for total trihalomethanes (THM) in the United States?", "0.080 mg/L", "0.040 mg/L", "0.060 mg/L", "0.100 mg/L"],
+    ["Under the Surface Water Treatment Rule, disinfection residuals must be collected at the same location in the distribution system as, ", "coliform samples", "total trihalomethanes", "disinfection by-products", "alkalinity, conductivity, and pH for corrosion studies"],
+    ["Iron can cause 'red water' and thus customer complaints when its concentration above its secondary maximum contaminant level of ", "0.30 mg/L", "0.01 mg/L", "0.05 mg/L", "0.10 mg/L"],
+    ["The goal of the Surface Drinking Water Act is for each ___ to accept primary enforcement responsibility (primacy) for the operation of the state's drinking water program.", "state", "municipality", "water treatment plant", "water treatment operator"],
+    ["What is the object of the Total Coliform Rule?", "To promote routine surveillance of distribution system water quality to search for fecal matter and/or disease-causing bacteria", "To provide Cryptosporidium protection in new facilities", "To ensure safe levels of lead and copper in drinking water.", "To protect the public from exposure to Giardia Lamblia and Cryptosporidium"],
+    ["A positive E. coli test must be reported to the primacy health agency within what time period?", "24 hours", "12 hours", "60 minutes", "7 days"],
+    ["How is the required number of monthly bacteriological samples determined?", "Population served", "Population density", "Water Treatment Plant Class", "Water Distribution Class"],
+    ["What is the action level for lead in first-draw samples taken from customer taps?", "0.015 mg/L", "0.001 mg/L", "0.300 mg/L", "0.150 mg/L"],
+    ["A water system is designated a community public water system if it serves how many homes?", "15 or more", "2 or more", "Less than 600", "More than 50,000"],
+    ["According to the Lead and Copper Rule, what is the action level for lead?", "0.015 mg/L", "0.030 mg/L", "0.150 mg/L", "0.001 mg/L"]];
 
-const questions_WD2 = [].concat(questions_WD12)
+const questions_WD2 = [].concat(questions_WD12);
 
 const questions_WD12 = [
     ["Which agency sets legal limits on the concentration levels of harmful contaminants in potable water distributed to customers?", "United States Environmental Protection Agency", "National Primary Drinking Water Regulations Agency", "US Public Health Service", "Occupational Health and Safety Administration"],
@@ -513,10 +524,10 @@ const questions_WD12 = [
     ["", "to coincide with low-water-use hours"],
     ["", "Don't do it."],
 
-]
+];
 
-const questions_WWT1 = []
+const questions_WWT1 = [];
 
-const questions_WWC1 = []
+const questions_WWC1 = [];
 
-const questions_WWC2 = []
+const questions_WWC2 = [];
