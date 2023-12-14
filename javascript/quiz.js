@@ -331,13 +331,13 @@ function category_function(element)
 
         if (element.parentNode.parentNode.id == navbtns[i].id){
             alert("we are at the correct dropdown");
-            active_dropdown = element.parentElement.parentElement.parentElement;
+            let active_dropdown = element.parentElement.parentElement.parentElement;
             active_dropdown.style.backgroundColor = "Green";
         }
         
         // changes active dropdown text
         document.getElementById("defaultDropdown").innerHTML = element.innerHTML;
-        active_dropdown = element.parentElement.parentElement.parentElement;
+        let active_dropdown = element.parentElement.parentElement.parentElement;
         active_dropdown.style.backgroundColor = "none";
 
     }
@@ -370,12 +370,12 @@ function category_function(element)
     }
 }
 
-function reset_dropdowns(){
-    for (let i = 0; i < 4; i ++)
-    {
+// function reset_dropdowns(){
+//     for (let i = 0; i < 4; i ++)
+//     {
         
-    }
-}
+//     }
+// }
 
 
 // on load ; we generate a quiz; starting with OIT
